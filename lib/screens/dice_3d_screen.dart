@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
 
+import 'dart:math';
+
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/physics.dart';
+import 'package:zflutter/zflutter.dart';
+
 class Dice3DScreen extends StatefulWidget {
+
   static const id = 'dice_3d_screen';
 
   @override
@@ -15,3 +22,5 @@ class _Dice3DScreenState extends State<Dice3DScreen> {
     );
   }
 }
+
+
